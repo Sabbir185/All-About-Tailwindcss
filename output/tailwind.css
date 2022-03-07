@@ -1,1 +1,11 @@
-/* empty */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.rotate-0 {
+  transform: rotate(0deg)
+}
+
+.hover\:rotate-0:hover {
+  transform: rotate(0deg)
+}
